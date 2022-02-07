@@ -1,0 +1,13 @@
+.mt-6 {
+    margin-top: 5rem;
+}
+.form-control {
+    border: none;
+    border-bottom: 1px solid rgb(172, 172, 172);
+    outline: 0;
+    box-shadow: 0;
+}
+
+.form-control:focus {
+    border-bottom: 1px solid #444;
+}

@@ -34,13 +34,13 @@ function createWindow() {
     // https://github.com/yan-foto/electron-reload#api
     // https://github.com/maximegris/angular-electron/blob/master/app/main.ts
     
-    window.loadURL(
-        url.format(__dirname,{
-            pathname: path.join('dist/electronProj/index.html'),
-            protocol: "file:",
-            slashes: true
-        })
-    );
+    // window.loadURL(
+    //     url.format(__dirname,{
+    //         pathname: path.join('dist/electronProj/index.html'),
+    //         protocol: "file:",
+    //         slashes: true
+    //     })
+    // );
 
 
     window.loadFile('dist/electronProj/index.html'); // use loadURL instead

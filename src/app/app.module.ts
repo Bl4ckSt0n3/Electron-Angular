@@ -4,10 +4,14 @@ import { FormsModule } from '@angular/forms';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { AppPageComponent } from './app-pages/app-page/app-page.component';
+import { DarkModeToggleComponent } from './dark-mode-toggle/dark-mode-toggle.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    AppPageComponent,
+    DarkModeToggleComponent
   ],
   imports: [
     BrowserModule,
