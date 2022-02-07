@@ -11,3 +11,10 @@
 .form-control:focus {
     border-bottom: 1px solid #444;
 }
+.fa-disable {
+    color: gray;
+}
+
+.fa-enable {
+    color: green;
+}

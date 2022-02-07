@@ -1,5 +1,4 @@
 <div class="container mt-6">
-    
         <div class="col-md-5">
             <section>
                 <form>
@@ -13,14 +12,17 @@
                             <input class="form-control" [(ngModel)]="cardNumber" id="name">
                         </div>
                     </div>
+                    <button (click)="validation()">val</button>
                 </form>
             </section>
         </div>
-        <div class="col-md-6">
+        <div class="col-md-6 mt-5">
             <section>
                 <div class="card">
                     <h4>{{cardName}}</h4>
                     <h4>{{cardNumber}}</h4>
+                    <i style="font-size:32px" class="fa fa-disable" *ngIf="!validate">&#xf00c;</i>
+                    <i style="font-size:32px;" class="fa fa-enable" *ngIf="validate">&#xf00c;</i>
                 </div>
             </section>
         </div>
